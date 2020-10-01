@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .box {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        }
+        
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-family: lato;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 60px;
+        }
+        
+        .box div {
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            animation: animate 4s linear infinite;
+            background: rgba(255, 255, 255, .5);
+            border-radius: 15px;
+        }
+        
+        .box div:nth-child(1) {
+            top: 20%;
+            left: 20%;
+            animation: animate 8s linear infinite;
+        }
+        
+        .box div:nth-child(2) {
+            top: 26%;
+            left: 89%;
+            animation: animate 10s linear infinite;
+        }
+        
+        .box div:nth-child(3) {
+            top: 80%;
+            left: 90%;
+            animation: animate 5s linear infinite;
+        }
+        
+        .box div:nth-child(4) {
+            top: 65%;
+            left: 75%;
+            animation: animate 7s linear infinite;
+        }
+        
+        .box div:nth-child(5) {
+            top: 90%;
+            left: 10%;
+            animation: animate 9s linear infinite;
+        }
+        
+        .box div:nth-child(6) {
+            top: 30%;
+            left: 60%;
+            animation: animate 5s linear infinite;
+        }
+        
+        .box div:nth-child(7) {
+            top: 70%;
+            left: 33%;
+            animation: animate 8s linear infinite;
+        }
+        
+        .box div:nth-child(8) {
+            top: 75%;
+            left: 60%;
+            animation: animate 10s linear infinite;
+        }
+        
+        .box div:nth-child(9) {
+            top: 23%;
+            left: 50%;
+            animation: animate 6s linear infinite;
+        }
+        
+        .box div:nth-child(10) {
+            top: 35%;
+            left: 7%;
+            animation: animate 10s linear infinite;
+        }
+        
+        @keyframes animate {
+            0% {
+                transform: scale(0) translateY(0) rotate(50deg);
+            }
+            100% {
+                transform: scale(1.6) translateY(-250px) rotate(360deg);
+            }
+        }
+        
+        .header {
+            padding-top: 0px;
+            color: black;
+            text-align: center;
+            font-size: 100px;
+            width: 100%;
+            height: 15%;
+        }
+        
+        .container {
+            text-align: center;
+            margin-top: 360px;
+        }
+        
+        .button {
+            padding: center;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        .button2 {
+            background-color: white;
+            color: black;
+            border: 2px solid #008CBA;
+        }
+        
+        .button2:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+        
+        .button3 {
+            background-color: white;
+            color: black;
+            border: 2px solid #b811b8;
+        }
+        
+        .button3:hover {
+            background-color: #b811b8;
+            color: white;
+        }
+        
+        .button4 {
+            background-color: white;
+            color: black;
+            border: 2px solid #41bd28;
+        }
+        
+        .button4:hover {
+            background-color: #41bd28;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>
+        </div>
+    </div>
+    <h2>
+        Choose Your Option<br>
+        <center>
+            <a href="C:\Users\swapnil\Desktop\pro1\lengthcalc.html"> <button class="button button2">Length Converter</button><br><br>
+                <a href="C:\Users\swapnil\Desktop\pro1\liquidconS.html"> <button class="button button3">Liquid Convertor</button><br><br>
+                    <a href="C:\Users\swapnil\Desktop\pro1\scientificcalc.html"> <button class="button button4">Scientific Convertor</button>
+
+        </center>
+
+
+
+    </h2>
+
+
+</body>
+
+</html>
